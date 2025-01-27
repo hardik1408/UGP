@@ -1,3 +1,4 @@
 toys/
 toys.zip
 data/
+__pycache__/
