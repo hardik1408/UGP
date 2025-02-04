@@ -1,0 +1,216 @@
+epoch time : 31.53205633163452
+Epoch [1/50]: Total Loss: -18.3115 | 128x128 Loss: -24.0738 | 256x256 Loss: -19.1057 | 512x512 Loss: -11.7551
+epoch time : 31.085490703582764
+Epoch [2/50]: Total Loss: -28.7245 | 128x128 Loss: -34.2262 | 256x256 Loss: -32.8807 | 512x512 Loss: -19.0666
+epoch time : 31.616480112075806
+Epoch [3/50]: Total Loss: -30.1482 | 128x128 Loss: -36.1135 | 256x256 Loss: -35.0848 | 512x512 Loss: -19.2464
+epoch time : 32.5422101020813
+Epoch [4/50]: Total Loss: -30.7815 | 128x128 Loss: -36.8956 | 256x256 Loss: -36.1451 | 512x512 Loss: -19.3039
+epoch time : 33.23960852622986
+Epoch [5/50]: Total Loss: -31.1012 | 128x128 Loss: -37.3048 | 256x256 Loss: -36.6607 | 512x512 Loss: -19.3381
+epoch time : 33.08756422996521
+Epoch [6/50]: Total Loss: -31.2999 | 128x128 Loss: -37.5894 | 256x256 Loss: -36.9506 | 512x512 Loss: -19.3596
+epoch time : 32.09207797050476
+Epoch [7/50]: Total Loss: -31.4614 | 128x128 Loss: -37.8275 | 256x256 Loss: -37.1831 | 512x512 Loss: -19.3736
+epoch time : 31.379993677139282
+Epoch [8/50]: Total Loss: -31.5455 | 128x128 Loss: -37.9482 | 256x256 Loss: -37.3058 | 512x512 Loss: -19.3823
+epoch time : 32.72995710372925
+Epoch [9/50]: Total Loss: -31.6801 | 128x128 Loss: -38.1505 | 256x256 Loss: -37.4998 | 512x512 Loss: -19.3900
+epoch time : 32.451141119003296
+Epoch [10/50]: Total Loss: -31.7521 | 128x128 Loss: -38.2564 | 256x256 Loss: -37.6041 | 512x512 Loss: -19.3957
+model for 10 saved
+epoch time : 31.78795027732849
+Epoch [11/50]: Total Loss: -31.6803 | 128x128 Loss: -38.1585 | 256x256 Loss: -37.4900 | 512x512 Loss: -19.3924
+epoch time : 32.50809288024902
+Epoch [12/50]: Total Loss: -31.9496 | 128x128 Loss: -38.5303 | 256x256 Loss: -37.9114 | 512x512 Loss: -19.4071
+epoch time : 32.251206159591675
+Epoch [13/50]: Total Loss: -31.9600 | 128x128 Loss: -38.5509 | 256x256 Loss: -37.9182 | 512x512 Loss: -19.4109
+epoch time : 31.478323459625244
+Epoch [14/50]: Total Loss: -31.9043 | 128x128 Loss: -38.4826 | 256x256 Loss: -37.8173 | 512x512 Loss: -19.4131
+epoch time : 32.08853483200073
+Epoch [15/50]: Total Loss: -32.1030 | 128x128 Loss: -38.7514 | 256x256 Loss: -38.1384 | 512x512 Loss: -19.4190
+epoch time : 31.772156715393066
+Epoch [16/50]: Total Loss: -32.1165 | 128x128 Loss: -38.7662 | 256x256 Loss: -38.1616 | 512x512 Loss: -19.4216
+epoch time : 31.860968828201294
+Epoch [17/50]: Total Loss: -32.0931 | 128x128 Loss: -38.7162 | 256x256 Loss: -38.1386 | 512x512 Loss: -19.4244
+epoch time : 32.115705490112305
+Epoch [18/50]: Total Loss: -32.1322 | 128x128 Loss: -38.7803 | 256x256 Loss: -38.1891 | 512x512 Loss: -19.4272
+epoch time : 32.692821741104126
+Epoch [19/50]: Total Loss: -32.2304 | 128x128 Loss: -38.9339 | 256x256 Loss: -38.3265 | 512x512 Loss: -19.4308
+epoch time : 32.713704347610474
+Epoch [20/50]: Total Loss: -32.2087 | 128x128 Loss: -38.8968 | 256x256 Loss: -38.2965 | 512x512 Loss: -19.4330
+model for 20 saved
+epoch time : 31.617465496063232
+Epoch [21/50]: Total Loss: -32.2612 | 128x128 Loss: -38.9799 | 256x256 Loss: -38.3678 | 512x512 Loss: -19.4360
+epoch time : 32.589330434799194
+Epoch [22/50]: Total Loss: -32.1930 | 128x128 Loss: -38.8939 | 256x256 Loss: -38.2493 | 512x512 Loss: -19.4358
+epoch time : 32.6506929397583
+Epoch [23/50]: Total Loss: -32.3566 | 128x128 Loss: -39.1159 | 256x256 Loss: -38.5125 | 512x512 Loss: -19.4413
+epoch time : 32.65897798538208
+Epoch [24/50]: Total Loss: -32.1540 | 128x128 Loss: -38.8363 | 256x256 Loss: -38.1866 | 512x512 Loss: -19.4390
+epoch time : 32.64488363265991
+Epoch [25/50]: Total Loss: -32.4242 | 128x128 Loss: -39.2135 | 256x256 Loss: -38.6129 | 512x512 Loss: -19.4462
+epoch time : 32.624772787094116
+Epoch [26/50]: Total Loss: -32.4551 | 128x128 Loss: -39.2597 | 256x256 Loss: -38.6577 | 512x512 Loss: -19.4480
+epoch time : 32.617276668548584
+Epoch [27/50]: Total Loss: -32.4438 | 128x128 Loss: -39.2478 | 256x256 Loss: -38.6343 | 512x512 Loss: -19.4494
+epoch time : 32.68260431289673
+Epoch [28/50]: Total Loss: -32.4291 | 128x128 Loss: -39.2311 | 256x256 Loss: -38.6053 | 512x512 Loss: -19.4509
+epoch time : 32.85759973526001
+Epoch [29/50]: Total Loss: -32.4577 | 128x128 Loss: -39.2690 | 256x256 Loss: -38.6518 | 512x512 Loss: -19.4524
+epoch time : 32.160929679870605
+Epoch [30/50]: Total Loss: -32.3647 | 128x128 Loss: -39.1397 | 256x256 Loss: -38.5023 | 512x512 Loss: -19.4520
+model for 30 saved
+epoch time : 32.6362190246582
+Epoch [31/50]: Total Loss: -32.5221 | 128x128 Loss: -39.3672 | 256x256 Loss: -38.7436 | 512x512 Loss: -19.4557
+epoch time : 32.16777276992798
+Epoch [32/50]: Total Loss: -32.5267 | 128x128 Loss: -39.3648 | 256x256 Loss: -38.7587 | 512x512 Loss: -19.4567
+epoch time : 32.32839846611023
+Epoch [33/50]: Total Loss: -32.5399 | 128x128 Loss: -39.3937 | 256x256 Loss: -38.7681 | 512x512 Loss: -19.4580
+epoch time : 32.59042239189148
+Epoch [34/50]: Total Loss: -32.4328 | 128x128 Loss: -39.2585 | 256x256 Loss: -38.5832 | 512x512 Loss: -19.4568
+epoch time : 32.7810480594635
+Epoch [35/50]: Total Loss: -32.6055 | 128x128 Loss: -39.4892 | 256x256 Loss: -38.8668 | 512x512 Loss: -19.4605
+epoch time : 32.560752153396606
+Epoch [36/50]: Total Loss: -32.5651 | 128x128 Loss: -39.4182 | 256x256 Loss: -38.8165 | 512x512 Loss: -19.4605
+epoch time : 32.660908699035645
+Epoch [37/50]: Total Loss: -32.6410 | 128x128 Loss: -39.5370 | 256x256 Loss: -38.9237 | 512x512 Loss: -19.4624
+epoch time : 32.63382363319397
+Epoch [38/50]: Total Loss: -32.6018 | 128x128 Loss: -39.4844 | 256x256 Loss: -38.8585 | 512x512 Loss: -19.4625
+epoch time : 31.434462785720825
+Epoch [39/50]: Total Loss: -32.6261 | 128x128 Loss: -39.5187 | 256x256 Loss: -38.8963 | 512x512 Loss: -19.4633
+epoch time : 31.43203067779541
+Epoch [40/50]: Total Loss: -32.5374 | 128x128 Loss: -39.4024 | 256x256 Loss: -38.7475 | 512x512 Loss: -19.4621
+model for 40 saved
+epoch time : 31.345659017562866
+Epoch [41/50]: Total Loss: -32.6680 | 128x128 Loss: -39.5809 | 256x256 Loss: -38.9580 | 512x512 Loss: -19.4650
+epoch time : 31.403576612472534
+Epoch [42/50]: Total Loss: -32.6778 | 128x128 Loss: -39.5966 | 256x256 Loss: -38.9711 | 512x512 Loss: -19.4656
+epoch time : 32.60995411872864
+Epoch [43/50]: Total Loss: -32.5923 | 128x128 Loss: -39.4646 | 256x256 Loss: -38.8489 | 512x512 Loss: -19.4634
+epoch time : 32.764747619628906
+Epoch [44/50]: Total Loss: -32.7114 | 128x128 Loss: -39.6504 | 256x256 Loss: -39.0167 | 512x512 Loss: -19.4669
+epoch time : 32.68537378311157
+Epoch [45/50]: Total Loss: -32.7116 | 128x128 Loss: -39.6496 | 256x256 Loss: -39.0176 | 512x512 Loss: -19.4674
+epoch time : 32.706151485443115
+Epoch [46/50]: Total Loss: -32.7183 | 128x128 Loss: -39.6559 | 256x256 Loss: -39.0310 | 512x512 Loss: -19.4680
+epoch time : 33.009074449539185
+Epoch [47/50]: Total Loss: -32.7073 | 128x128 Loss: -39.6364 | 256x256 Loss: -39.0174 | 512x512 Loss: -19.4681
+epoch time : 32.771155834198
+Epoch [48/50]: Total Loss: -32.7634 | 128x128 Loss: -39.7138 | 256x256 Loss: -39.1072 | 512x512 Loss: -19.4692
+epoch time : 32.53489065170288
+Epoch [49/50]: Total Loss: -32.7697 | 128x128 Loss: -39.7257 | 256x256 Loss: -39.1140 | 512x512 Loss: -19.4695
+epoch time : 31.261637926101685
+Epoch [50/50]: Total Loss: -32.7330 | 128x128 Loss: -39.6791 | 256x256 Loss: -39.0509 | 512x512 Loss: -19.4690
+model for 50 saved
+training complete
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+time for 1 epoch = 24.19069480895996
+Epoch [1/50], Loss: -7.3033
+time for 2 epoch = 24.100958347320557
+Epoch [2/50], Loss: -16.2942
+time for 3 epoch = 24.167837381362915
+Epoch [3/50], Loss: -19.3117
+time for 4 epoch = 25.2611882686615
+Epoch [4/50], Loss: -19.3744
+time for 5 epoch = 24.98447585105896
+Epoch [5/50], Loss: -19.4113
+time for 6 epoch = 25.494569540023804
+Epoch [6/50], Loss: -19.4271
+time for 7 epoch = 25.573233127593994
+Epoch [7/50], Loss: -19.4442
+time for 8 epoch = 25.51664113998413
+Epoch [8/50], Loss: -19.4527
+time for 9 epoch = 25.674715757369995
+Epoch [9/50], Loss: -19.4621
+time for 10 epoch = 25.64438557624817
+Epoch [10/50], Loss: -19.4643
+model for 10 saved
+time for 11 epoch = 24.928000926971436
+Epoch [11/50], Loss: -19.4728
+time for 12 epoch = 25.152995109558105
+Epoch [12/50], Loss: -19.4747
+time for 13 epoch = 24.74896240234375
+Epoch [13/50], Loss: -19.4808
+time for 14 epoch = 25.01898741722107
+Epoch [14/50], Loss: -19.4813
+time for 15 epoch = 25.799134016036987
+Epoch [15/50], Loss: -19.4876
+time for 16 epoch = 25.946794748306274
+Epoch [16/50], Loss: -19.4858
+time for 17 epoch = 25.976433753967285
+Epoch [17/50], Loss: -19.4930
+time for 18 epoch = 26.203792095184326
+Epoch [18/50], Loss: -19.4936
+time for 19 epoch = 25.768197298049927
+Epoch [19/50], Loss: -19.4957
+time for 20 epoch = 24.630038261413574
+Epoch [20/50], Loss: -19.4905
+model for 20 saved
+time for 21 epoch = 24.27592658996582
+Epoch [21/50], Loss: -19.5005
+time for 22 epoch = 24.35972571372986
+Epoch [22/50], Loss: -19.5024
+time for 23 epoch = 24.650936603546143
+Epoch [23/50], Loss: -19.5021
+time for 24 epoch = 25.319624185562134
+Epoch [24/50], Loss: -19.5053
+time for 25 epoch = 26.877540111541748
+Epoch [25/50], Loss: -19.5038
+time for 26 epoch = 25.603211879730225
+Epoch [26/50], Loss: -19.5077
+time for 27 epoch = 25.97878384590149
+Epoch [27/50], Loss: -19.5047
+time for 28 epoch = 25.372509479522705
+Epoch [28/50], Loss: -19.5097
+time for 29 epoch = 25.702669143676758
+Epoch [29/50], Loss: -19.5078
+time for 30 epoch = 25.896815061569214
+Epoch [30/50], Loss: -19.5108
+model for 30 saved
+time for 31 epoch = 25.76566982269287
+Epoch [31/50], Loss: -19.5100
+time for 32 epoch = 25.596927642822266
+Epoch [32/50], Loss: -19.5126
+time for 33 epoch = 25.836909532546997
+Epoch [33/50], Loss: -19.5097
+time for 34 epoch = 25.7246515750885
+Epoch [34/50], Loss: -19.5143
+time for 35 epoch = 26.29391312599182
+Epoch [35/50], Loss: -19.5116
+time for 36 epoch = 25.78534770011902
+Epoch [36/50], Loss: -19.5154
+time for 37 epoch = 25.770514965057373
+Epoch [37/50], Loss: -19.5127
+time for 38 epoch = 25.74157428741455
+Epoch [38/50], Loss: -19.5164
+time for 39 epoch = 25.74952983856201
+Epoch [39/50], Loss: -19.5148
+time for 40 epoch = 25.479536056518555
+Epoch [40/50], Loss: -19.5171
+model for 40 saved
+time for 41 epoch = 26.437970399856567
+Epoch [41/50], Loss: -19.5143
+time for 42 epoch = 26.805999279022217
+Epoch [42/50], Loss: -19.5187
+time for 43 epoch = 26.337892293930054
+Epoch [43/50], Loss: -19.5156
+time for 44 epoch = 25.01266860961914
+Epoch [44/50], Loss: -19.5194
+time for 45 epoch = 24.522292613983154
+Epoch [45/50], Loss: -19.5173
+time for 46 epoch = 24.511837005615234
+Epoch [46/50], Loss: -19.5204
+time for 47 epoch = 24.562385082244873
+Epoch [47/50], Loss: -19.5174
+time for 48 epoch = 24.496260404586792
+Epoch [48/50], Loss: -19.5212
+time for 49 epoch = 24.53906774520874
+Epoch [49/50], Loss: -19.5191
+time for 50 epoch = 24.47480821609497
+Epoch [50/50], Loss: -19.5217
+model for 50 saved
+training complete

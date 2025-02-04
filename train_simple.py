@@ -29,9 +29,9 @@ transform = transforms.Compose([
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1]
 ])
 
-folder_path_512 = 'data/train/512'
-folder_path_256 = 'data/train/256'
-folder_path_128 = 'data/train/128'
+folder_path_512 = 'data/train_new/512'
+folder_path_256 = 'data/train_new/256'
+folder_path_128 = 'data/train_new/128'
 dataset_512 = ImageDataset(folder_path_512, transform=transform)
 dataset_256 = ImageDataset(folder_path_256, transform=transform)
 dataset_128 = ImageDataset(folder_path_128, transform=transform)
@@ -47,7 +47,7 @@ def visualize_images(dataloader, title, num_images=8):
     images = next(iter(dataloader))[:num_images]
     grid = vutils.make_grid(images, nrow=num_images, normalize=True, scale_each=True)
     # print(images.shape)
-    grid_np = grid.cpu().numpy().transpose(1, 2, 0)  # CxHxW -> HxWxC
+    grid_np = grid.cpu().numpy().transpose(1, 2, 0)  
 
     plt.figure(figsize=(15, 5))
     plt.imshow(grid_np)
@@ -55,21 +55,16 @@ def visualize_images(dataloader, title, num_images=8):
     plt.axis('off')
     plt.show()
 
-visualize_images(dataloader_512, "Sample Images (512x512)")
-visualize_images(dataloader_256, "Sample Images (256x256)")
-visualize_images(dataloader_128, "Sample Images (128x128)")
+# visualize_images(dataloader_512, "Sample Images (512x512)")
+# visualize_images(dataloader_256, "Sample Images (256x256)")
+# visualize_images(dataloader_128, "Sample Images (128x128)")
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 autoencoder_simple = AutoEncoderMRL().to(device)
 
 optimizer = Adam(autoencoder_simple.parameters(), lr=1e-3)
 
-def psnr_loss(output, target):
-    mse = F.mse_loss(output, target, reduction='mean')
-    psnr = -10 * torch.log10(mse + 1e-8)  # Adding small epsilon to avoid log(0)
-    return -psnr  
-
-num_epochs = 50
+num_epochs = 20
 for epoch in range(num_epochs):
     autoencoder_simple.train()  
     total_loss = 0
@@ -79,7 +74,7 @@ for epoch in range(num_epochs):
 
         _, _, out_512, _ = autoencoder_simple(images_512)
 
-        loss = psnr_loss(out_512, images_512)
+        loss = F.mse_loss(out_512, images_512)
 
         optimizer.zero_grad()
         loss.backward()
@@ -92,8 +87,8 @@ for epoch in range(num_epochs):
     print(f"time for {epoch+1} epoch = {e_time - s_time}")
     print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {avg_loss:.4f}")
     if((epoch+1)%10 == 0):
-        torch.save(autoencoder_simple,'simple_update_ae.pth')
+        torch.save(autoencoder_simple,'weights/simple_big_ae.pth')
         print(f"model for {epoch+1} saved")
 
-torch.save(autoencoder_simple,'simple_update_ae.pth')
+torch.save(autoencoder_simple,'simple_big_ae.pth')
 print("training complete")

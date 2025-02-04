@@ -1,90 +1,74 @@
-from torchmetrics.functional import peak_signal_noise_ratio as psnr
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 from autoencoder import Encoder, Decoder, AutoEncoderMRL
 from imagedataset import ImageDataset
-import matplotlib.pyplot as plt
-import torchvision.utils as vutils
-from torch.optim import Adam
 import torch
-import torch.nn as nn
-import time
 import torch.nn.functional as F
-def mrl_loss(outputs, target_128, target_256, target_512, weights):
+import time
 
-    out_128, out_256, out_512 = outputs
-    loss_128 = -psnr(out_128, target_128, data_range=1.0)
-    loss_256 = -psnr(out_256, target_256, data_range=1.0)
-    loss_512 = -psnr(out_512, target_512, data_range=1.0)
+# ---------------------- SETTINGS ----------------------
+batch_size = 32
+num_epochs = int(input("Enter number of epochs: "))
+mrl_weights = [1, 1, 1]
+device = torch.device("cpu")
+print(f"Using device: {device}")
 
-    # print(f"PSNR Loss at 128x128: {-loss_128:.4f}, 256x256: {-loss_256:.4f}, 512x512: {-loss_512:.4f}")
-
-    # Weighted sum of losses
-    total_loss = weights[0] * loss_128 + weights[1] * loss_256 + weights[2] * loss_512
-    return loss_128 , loss_256 , loss_512 , total_loss / 3  
-
+# ---------------------- TRANSFORMS ----------------------
 transform = transforms.Compose([
-    transforms.ToTensor(),          # Convert image to PyTorch tensor
+    transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1]
 ])
 
-folder_path_512 = 'data/train/512'
-folder_path_256 = 'data/train/256'
-folder_path_128 = 'data/train/128'
+# ---------------------- FUNCTION TO PRELOAD DATASET ----------------------
+def preload_dataset(folder_path, transform, device):
+    dataset = ImageDataset(folder_path, transform=transform)
+    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
 
-dataset_512 = ImageDataset(folder_path_512, transform=transform)
-dataset_256 = ImageDataset(folder_path_256, transform=transform)
-dataset_128 = ImageDataset(folder_path_128, transform=transform)
+    preloaded_data = []
+    for batch in dataloader:
+        preloaded_data.append(batch.to(device))  # Move images to GPU
+    return preloaded_data
 
-batch_size = 32
-dataloader_512 = DataLoader(dataset_512, batch_size=batch_size, shuffle=False)
-dataloader_256 = DataLoader(dataset_256, batch_size=batch_size, shuffle=False)
-dataloader_128 = DataLoader(dataset_128, batch_size=batch_size, shuffle=False)
+# Load all images before training
+print("Preloading datasets to GPU (this may take time)...")
+preloaded_512 = preload_dataset('data/train_new/512', transform, device)
+preloaded_256 = preload_dataset('data/train_new/256', transform, device)
+preloaded_128 = preload_dataset('data/train_new/128', transform, device)
+print("Preloading complete!")
 
-def visualize_images(dataloader, title, num_images=8):
-    images = next(iter(dataloader))[:num_images]
-    grid = vutils.make_grid(images, nrow=num_images, normalize=True, scale_each=True)
-    # print(images.shape)
-    grid_np = grid.cpu().numpy().transpose(1, 2, 0)  # CxHxW -> HxWxC
+# ---------------------- MULTI-RESOLUTION LOSS FUNCTION ----------------------
+def mrl_loss(outputs, target_128, target_256, target_512, weights):
+    out_128, out_256, out_512 = outputs
+    loss_128 = F.mse_loss(out_128, target_128)
+    loss_256 = F.mse_loss(out_256, target_256)
+    loss_512 = F.mse_loss(out_512, target_512)
 
-    plt.figure(figsize=(15, 5))
-    plt.imshow(grid_np)
-    plt.title(title)
-    plt.axis('off')
-    plt.show()
+    total_loss = weights[0] * loss_128 + weights[1] * loss_256 + weights[2] * loss_512
+    return loss_128, loss_256, loss_512, total_loss / 3
 
-visualize_images(dataloader_512, "Sample Images (512x512)")
-visualize_images(dataloader_256, "Sample Images (256x256)")
-visualize_images(dataloader_128, "Sample Images (128x128)")
-
-num_epochs = 50
-mrl_weights = [1, 1, 1] 
-
-device = torch.device('cuda')
+# ---------------------- TRAINING ----------------------
 autoencoder_mrl = AutoEncoderMRL().to(device)
+optimizer = torch.optim.Adam(autoencoder_mrl.parameters(), lr=1e-3)
 
-print("going into training")
-optimizer = Adam(autoencoder_mrl.parameters(), lr=1e-3)
+print("Starting training...")
 for epoch in range(num_epochs):
-    autoencoder_mrl.train()  
+    autoencoder_mrl.train()
     total_loss = 0
     total_loss_128 = 0
     total_loss_256 = 0
     total_loss_512 = 0
     start_time = time.time()
-    for batch_idx, (images_512, images_256, images_128) in enumerate(zip(dataloader_512, dataloader_256, dataloader_128)):
-        images_512 = images_512.to(device)  #
-        images_256 = images_256.to(device)  
-        images_128 = images_128.to(device)  
+
+    for batch_idx, (images_512, images_256, images_128) in enumerate(zip(preloaded_512, preloaded_256, preloaded_128)):
+        optimizer.zero_grad()
 
         out_128, out_256, out_512, _ = autoencoder_mrl(images_512)
-        # print(f"out_128 shape: {out_128.shape}")
-        # print(f"out_256 shape: {out_256.shape}")
-        # print(f"out_512 shape: {out_512.shape}")
+        loss_128, loss_256, loss_512, loss = mrl_loss(
+            (out_128, out_256, out_512),
+            images_128, images_256, images_512,
+            mrl_weights
+        )
 
-        loss_128 , loss_256 , loss_512 , loss = mrl_loss((out_128, out_256, out_512), images_128, images_256, images_512, mrl_weights)
-
-        optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
@@ -94,15 +78,14 @@ for epoch in range(num_epochs):
         total_loss_512 += loss_512.item()
 
     end_time = time.time()
-    avg_loss = total_loss / len(dataloader_512)
-    avg_loss_128 = total_loss_128 / len(dataloader_512)
-    avg_loss_256 = total_loss_256 / len(dataloader_512)
-    avg_loss_512 = total_loss_512 / len(dataloader_512)
-    print(f"epoch time : {end_time - start_time}")
-    print(f"Epoch [{epoch+1}/{num_epochs}]: Total Loss: {avg_loss:.4f} | 128x128 Loss: {avg_loss_128:.4f} | 256x256 Loss: {avg_loss_256:.4f} | 512x512 Loss: {avg_loss_512:.4f}")
-    if((epoch+1)%10 == 0):
-        torch.save(autoencoder_mrl,'weights/big_ae.pth')
-        print(f"model for {epoch+1} saved")
+    avg_loss = total_loss / len(preloaded_512)
+    avg_loss_128 = total_loss_128 / len(preloaded_512)
+    avg_loss_256 = total_loss_256 / len(preloaded_512)
+    avg_loss_512 = total_loss_512 / len(preloaded_512)
 
-torch.save(autoencoder_mrl,'update_ae.pth')
-print("training complete")
+    print(f"Epoch [{epoch+1}/{num_epochs}]: Total Loss: {avg_loss:.4f} | "
+          f"128x128 Loss: {avg_loss_128:.4f} | 256x256 Loss: {avg_loss_256:.4f} | 512x512 Loss: {avg_loss_512:.4f} | "
+          f"Time: {end_time - start_time:.2f}s")
+
+torch.save(autoencoder_mrl, 'gpu_ae.pth')
+print("Training complete!")
