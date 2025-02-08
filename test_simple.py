@@ -1,11 +1,7 @@
-from torchmetrics.functional import peak_signal_noise_ratio as psnr
-from PIL import Image
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader
 from autoencoder import Encoder, Decoder, AutoEncoderMRL
 from imagedataset import ImageDataset
-import matplotlib.pyplot as plt
-import torchvision.utils as vutils
 from torch.optim import Adam
 import torch
 import torch.nn as nn
@@ -25,12 +21,10 @@ transform = transforms.Compose([
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1]
 ])
 
-dataset_test_512 = ImageDataset("data/test_new/512", transform=transform)
+dataset_test_512 = ImageDataset("data/test/512", transform=transform)
 
 batch_size = 32
 dataloader_test_512 = DataLoader(dataset_test_512, batch_size=batch_size, shuffle=False)
-
-total_loss = 0
 
 autoencoder_simple = AutoEncoderMRL().to(device)
 autoencoder_simple = torch.load(weights_path)

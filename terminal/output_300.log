@@ -1,0 +1,604 @@
+nohup: ignoring input
+device is cuda 
+going into training
+epoch time : 93.50168108940125
+Epoch [1/300]: Total Loss: 0.1235 | 128x128 Loss: 0.0657 | 256x256 Loss: 0.1093 | 512x512 Loss: 0.1953
+epoch time : 92.79864048957825
+Epoch [2/300]: Total Loss: 0.0426 | 128x128 Loss: 0.0178 | 256x256 Loss: 0.0195 | 512x512 Loss: 0.0907
+epoch time : 93.71238589286804
+Epoch [3/300]: Total Loss: 0.0366 | 128x128 Loss: 0.0121 | 256x256 Loss: 0.0127 | 512x512 Loss: 0.0851
+epoch time : 93.70341849327087
+Epoch [4/300]: Total Loss: 0.0340 | 128x128 Loss: 0.0095 | 256x256 Loss: 0.0097 | 512x512 Loss: 0.0827
+epoch time : 93.75778818130493
+Epoch [5/300]: Total Loss: 0.0330 | 128x128 Loss: 0.0085 | 256x256 Loss: 0.0086 | 512x512 Loss: 0.0818
+epoch time : 93.50478482246399
+Epoch [6/300]: Total Loss: 0.0324 | 128x128 Loss: 0.0079 | 256x256 Loss: 0.0080 | 512x512 Loss: 0.0812
+epoch time : 93.46896839141846
+Epoch [7/300]: Total Loss: 0.0314 | 128x128 Loss: 0.0069 | 256x256 Loss: 0.0071 | 512x512 Loss: 0.0804
+epoch time : 93.15356349945068
+Epoch [8/300]: Total Loss: 0.0313 | 128x128 Loss: 0.0067 | 256x256 Loss: 0.0069 | 512x512 Loss: 0.0801
+epoch time : 93.1788215637207
+Epoch [9/300]: Total Loss: 0.0307 | 128x128 Loss: 0.0062 | 256x256 Loss: 0.0063 | 512x512 Loss: 0.0796
+epoch time : 93.72980785369873
+Epoch [10/300]: Total Loss: 0.0304 | 128x128 Loss: 0.0058 | 256x256 Loss: 0.0060 | 512x512 Loss: 0.0793
+epoch time : 92.76664137840271
+Epoch [11/300]: Total Loss: 0.0304 | 128x128 Loss: 0.0059 | 256x256 Loss: 0.0059 | 512x512 Loss: 0.0793
+epoch time : 93.42142271995544
+Epoch [12/300]: Total Loss: 0.0304 | 128x128 Loss: 0.0060 | 256x256 Loss: 0.0060 | 512x512 Loss: 0.0793
+epoch time : 93.6568992137909
+Epoch [13/300]: Total Loss: 0.0303 | 128x128 Loss: 0.0058 | 256x256 Loss: 0.0058 | 512x512 Loss: 0.0792
+epoch time : 94.19552445411682
+Epoch [14/300]: Total Loss: 0.0301 | 128x128 Loss: 0.0056 | 256x256 Loss: 0.0055 | 512x512 Loss: 0.0790
+epoch time : 93.87285327911377
+Epoch [15/300]: Total Loss: 0.0302 | 128x128 Loss: 0.0057 | 256x256 Loss: 0.0057 | 512x512 Loss: 0.0791
+epoch time : 94.21921277046204
+Epoch [16/300]: Total Loss: 0.0302 | 128x128 Loss: 0.0058 | 256x256 Loss: 0.0057 | 512x512 Loss: 0.0791
+epoch time : 93.35239243507385
+Epoch [17/300]: Total Loss: 0.0297 | 128x128 Loss: 0.0052 | 256x256 Loss: 0.0051 | 512x512 Loss: 0.0787
+epoch time : 93.00651454925537
+Epoch [18/300]: Total Loss: 0.0296 | 128x128 Loss: 0.0051 | 256x256 Loss: 0.0051 | 512x512 Loss: 0.0787
+epoch time : 93.32787728309631
+Epoch [19/300]: Total Loss: 0.0295 | 128x128 Loss: 0.0050 | 256x256 Loss: 0.0050 | 512x512 Loss: 0.0786
+epoch time : 93.56569027900696
+Epoch [20/300]: Total Loss: 0.0294 | 128x128 Loss: 0.0049 | 256x256 Loss: 0.0049 | 512x512 Loss: 0.0785
+epoch time : 93.59806561470032
+Epoch [21/300]: Total Loss: 0.0297 | 128x128 Loss: 0.0052 | 256x256 Loss: 0.0051 | 512x512 Loss: 0.0787
+epoch time : 93.10380387306213
+Epoch [22/300]: Total Loss: 0.0295 | 128x128 Loss: 0.0050 | 256x256 Loss: 0.0049 | 512x512 Loss: 0.0785
+epoch time : 93.10301780700684
+Epoch [23/300]: Total Loss: 0.0291 | 128x128 Loss: 0.0046 | 256x256 Loss: 0.0045 | 512x512 Loss: 0.0782
+epoch time : 93.79355120658875
+Epoch [24/300]: Total Loss: 0.0293 | 128x128 Loss: 0.0048 | 256x256 Loss: 0.0048 | 512x512 Loss: 0.0784
+epoch time : 93.48934984207153
+Epoch [25/300]: Total Loss: 0.0292 | 128x128 Loss: 0.0047 | 256x256 Loss: 0.0047 | 512x512 Loss: 0.0783
+epoch time : 94.68653130531311
+Epoch [26/300]: Total Loss: 0.0293 | 128x128 Loss: 0.0047 | 256x256 Loss: 0.0047 | 512x512 Loss: 0.0784
+epoch time : 93.72977542877197
+Epoch [27/300]: Total Loss: 0.0292 | 128x128 Loss: 0.0047 | 256x256 Loss: 0.0047 | 512x512 Loss: 0.0783
+epoch time : 93.41836380958557
+Epoch [28/300]: Total Loss: 0.0290 | 128x128 Loss: 0.0045 | 256x256 Loss: 0.0044 | 512x512 Loss: 0.0782
+epoch time : 93.33124613761902
+Epoch [29/300]: Total Loss: 0.0290 | 128x128 Loss: 0.0045 | 256x256 Loss: 0.0044 | 512x512 Loss: 0.0781
+epoch time : 93.36350440979004
+Epoch [30/300]: Total Loss: 0.0290 | 128x128 Loss: 0.0044 | 256x256 Loss: 0.0044 | 512x512 Loss: 0.0781
+epoch time : 93.1929943561554
+Epoch [31/300]: Total Loss: 0.0287 | 128x128 Loss: 0.0041 | 256x256 Loss: 0.0041 | 512x512 Loss: 0.0779
+epoch time : 93.49257731437683
+Epoch [32/300]: Total Loss: 0.0287 | 128x128 Loss: 0.0041 | 256x256 Loss: 0.0041 | 512x512 Loss: 0.0779
+epoch time : 93.11001896858215
+Epoch [33/300]: Total Loss: 0.0287 | 128x128 Loss: 0.0041 | 256x256 Loss: 0.0041 | 512x512 Loss: 0.0779
+epoch time : 93.27515244483948
+Epoch [34/300]: Total Loss: 0.0285 | 128x128 Loss: 0.0039 | 256x256 Loss: 0.0038 | 512x512 Loss: 0.0777
+epoch time : 93.50456309318542
+Epoch [35/300]: Total Loss: 0.0290 | 128x128 Loss: 0.0044 | 256x256 Loss: 0.0044 | 512x512 Loss: 0.0781
+epoch time : 93.23333692550659
+Epoch [36/300]: Total Loss: 0.0284 | 128x128 Loss: 0.0038 | 256x256 Loss: 0.0038 | 512x512 Loss: 0.0776
+epoch time : 94.09311509132385
+Epoch [37/300]: Total Loss: 0.0284 | 128x128 Loss: 0.0038 | 256x256 Loss: 0.0038 | 512x512 Loss: 0.0777
+epoch time : 94.00081443786621
+Epoch [38/300]: Total Loss: 0.0285 | 128x128 Loss: 0.0039 | 256x256 Loss: 0.0038 | 512x512 Loss: 0.0777
+epoch time : 93.55038738250732
+Epoch [39/300]: Total Loss: 0.0285 | 128x128 Loss: 0.0039 | 256x256 Loss: 0.0039 | 512x512 Loss: 0.0778
+epoch time : 93.2144455909729
+Epoch [40/300]: Total Loss: 0.0283 | 128x128 Loss: 0.0037 | 256x256 Loss: 0.0037 | 512x512 Loss: 0.0776
+epoch time : 93.41323971748352
+Epoch [41/300]: Total Loss: 0.0284 | 128x128 Loss: 0.0037 | 256x256 Loss: 0.0037 | 512x512 Loss: 0.0776
+epoch time : 93.71241426467896
+Epoch [42/300]: Total Loss: 0.0283 | 128x128 Loss: 0.0036 | 256x256 Loss: 0.0036 | 512x512 Loss: 0.0775
+epoch time : 94.1862907409668
+Epoch [43/300]: Total Loss: 0.0281 | 128x128 Loss: 0.0034 | 256x256 Loss: 0.0034 | 512x512 Loss: 0.0774
+epoch time : 93.64361095428467
+Epoch [44/300]: Total Loss: 0.0280 | 128x128 Loss: 0.0033 | 256x256 Loss: 0.0033 | 512x512 Loss: 0.0773
+epoch time : 94.02969098091125
+Epoch [45/300]: Total Loss: 0.0281 | 128x128 Loss: 0.0035 | 256x256 Loss: 0.0035 | 512x512 Loss: 0.0774
+epoch time : 93.48567032814026
+Epoch [46/300]: Total Loss: 0.0280 | 128x128 Loss: 0.0033 | 256x256 Loss: 0.0033 | 512x512 Loss: 0.0773
+epoch time : 93.70140361785889
+Epoch [47/300]: Total Loss: 0.0279 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0772
+epoch time : 93.39331936836243
+Epoch [48/300]: Total Loss: 0.0280 | 128x128 Loss: 0.0033 | 256x256 Loss: 0.0033 | 512x512 Loss: 0.0773
+epoch time : 94.03262186050415
+Epoch [49/300]: Total Loss: 0.0279 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0773
+epoch time : 93.75871276855469
+Epoch [50/300]: Total Loss: 0.0101 | 128x128 Loss: 0.0030 | 256x256 Loss: 0.0031 | 512x512 Loss: 0.0242
+epoch time : 94.48285126686096
+Epoch [51/300]: Total Loss: 0.0070 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0146
+epoch time : 93.74669528007507
+Epoch [52/300]: Total Loss: 0.0071 | 128x128 Loss: 0.0033 | 256x256 Loss: 0.0033 | 512x512 Loss: 0.0147
+epoch time : 93.8372552394867
+Epoch [53/300]: Total Loss: 0.0070 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0146
+epoch time : 94.16176843643188
+Epoch [54/300]: Total Loss: 0.0070 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0146
+epoch time : 93.9269745349884
+Epoch [55/300]: Total Loss: 0.0070 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0146
+epoch time : 93.96251606941223
+Epoch [56/300]: Total Loss: 0.0070 | 128x128 Loss: 0.0032 | 256x256 Loss: 0.0032 | 512x512 Loss: 0.0145
+epoch time : 93.60523557662964
+Epoch [57/300]: Total Loss: 0.0066 | 128x128 Loss: 0.0028 | 256x256 Loss: 0.0028 | 512x512 Loss: 0.0143
+epoch time : 93.39770078659058
+Epoch [58/300]: Total Loss: 0.0066 | 128x128 Loss: 0.0027 | 256x256 Loss: 0.0027 | 512x512 Loss: 0.0142
+epoch time : 93.60906624794006
+Epoch [59/300]: Total Loss: 0.0066 | 128x128 Loss: 0.0028 | 256x256 Loss: 0.0028 | 512x512 Loss: 0.0143
+epoch time : 93.8138816356659
+Epoch [60/300]: Total Loss: 0.0067 | 128x128 Loss: 0.0029 | 256x256 Loss: 0.0029 | 512x512 Loss: 0.0143
+epoch time : 93.5498297214508
+Epoch [61/300]: Total Loss: 0.0065 | 128x128 Loss: 0.0027 | 256x256 Loss: 0.0027 | 512x512 Loss: 0.0142
+epoch time : 94.0972831249237
+Epoch [62/300]: Total Loss: 0.0065 | 128x128 Loss: 0.0027 | 256x256 Loss: 0.0027 | 512x512 Loss: 0.0142
+epoch time : 94.27439403533936
+Epoch [63/300]: Total Loss: 0.0063 | 128x128 Loss: 0.0025 | 256x256 Loss: 0.0025 | 512x512 Loss: 0.0140
+epoch time : 94.10862708091736
+Epoch [64/300]: Total Loss: 0.0064 | 128x128 Loss: 0.0025 | 256x256 Loss: 0.0025 | 512x512 Loss: 0.0140
+epoch time : 93.88418436050415
+Epoch [65/300]: Total Loss: 0.0063 | 128x128 Loss: 0.0025 | 256x256 Loss: 0.0025 | 512x512 Loss: 0.0140
+epoch time : 94.11067700386047
+Epoch [66/300]: Total Loss: 0.0063 | 128x128 Loss: 0.0024 | 256x256 Loss: 0.0024 | 512x512 Loss: 0.0140
+epoch time : 93.25901532173157
+Epoch [67/300]: Total Loss: 0.0063 | 128x128 Loss: 0.0024 | 256x256 Loss: 0.0025 | 512x512 Loss: 0.0140
+epoch time : 94.19101595878601
+Epoch [68/300]: Total Loss: 0.0064 | 128x128 Loss: 0.0025 | 256x256 Loss: 0.0026 | 512x512 Loss: 0.0141
+epoch time : 93.8365683555603
+Epoch [69/300]: Total Loss: 0.0064 | 128x128 Loss: 0.0025 | 256x256 Loss: 0.0026 | 512x512 Loss: 0.0141
+epoch time : 94.5571300983429
+Epoch [70/300]: Total Loss: 0.0063 | 128x128 Loss: 0.0024 | 256x256 Loss: 0.0025 | 512x512 Loss: 0.0140
+epoch time : 93.79698753356934
+Epoch [71/300]: Total Loss: 0.0062 | 128x128 Loss: 0.0024 | 256x256 Loss: 0.0024 | 512x512 Loss: 0.0139
+epoch time : 93.19891309738159
+Epoch [72/300]: Total Loss: 0.0062 | 128x128 Loss: 0.0024 | 256x256 Loss: 0.0024 | 512x512 Loss: 0.0139
+epoch time : 93.68391013145447
+Epoch [73/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0023 | 512x512 Loss: 0.0138
+epoch time : 93.87264823913574
+Epoch [74/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0023 | 256x256 Loss: 0.0023 | 512x512 Loss: 0.0138
+epoch time : 94.10687375068665
+Epoch [75/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0023 | 512x512 Loss: 0.0138
+epoch time : 93.48440337181091
+Epoch [76/300]: Total Loss: 0.0062 | 128x128 Loss: 0.0023 | 256x256 Loss: 0.0023 | 512x512 Loss: 0.0139
+epoch time : 93.91578078269958
+Epoch [77/300]: Total Loss: 0.0060 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 93.71513652801514
+Epoch [78/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 94.11286091804504
+Epoch [79/300]: Total Loss: 0.0060 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 94.0879921913147
+Epoch [80/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 94.20297336578369
+Epoch [81/300]: Total Loss: 0.0060 | 128x128 Loss: 0.0021 | 256x256 Loss: 0.0021 | 512x512 Loss: 0.0137
+epoch time : 93.74939799308777
+Epoch [82/300]: Total Loss: 0.0060 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 94.02196192741394
+Epoch [83/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 93.81116390228271
+Epoch [84/300]: Total Loss: 0.0060 | 128x128 Loss: 0.0021 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 93.49867057800293
+Epoch [85/300]: Total Loss: 0.0060 | 128x128 Loss: 0.0021 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 93.06488490104675
+Epoch [86/300]: Total Loss: 0.0061 | 128x128 Loss: 0.0022 | 256x256 Loss: 0.0022 | 512x512 Loss: 0.0138
+epoch time : 93.80494403839111
+Epoch [87/300]: Total Loss: 0.0059 | 128x128 Loss: 0.0020 | 256x256 Loss: 0.0021 | 512x512 Loss: 0.0137
+epoch time : 93.44254398345947
+Epoch [88/300]: Total Loss: 0.0059 | 128x128 Loss: 0.0020 | 256x256 Loss: 0.0020 | 512x512 Loss: 0.0137
+epoch time : 93.7867181301117
+Epoch [89/300]: Total Loss: 0.0058 | 128x128 Loss: 0.0019 | 256x256 Loss: 0.0019 | 512x512 Loss: 0.0136
+epoch time : 94.32540988922119
+Epoch [90/300]: Total Loss: 0.0058 | 128x128 Loss: 0.0019 | 256x256 Loss: 0.0019 | 512x512 Loss: 0.0135
+epoch time : 93.22985029220581
+Epoch [91/300]: Total Loss: 0.0057 | 128x128 Loss: 0.0018 | 256x256 Loss: 0.0019 | 512x512 Loss: 0.0135
+epoch time : 95.0453999042511
+Epoch [92/300]: Total Loss: 0.0057 | 128x128 Loss: 0.0018 | 256x256 Loss: 0.0019 | 512x512 Loss: 0.0135
+epoch time : 93.39032125473022
+Epoch [93/300]: Total Loss: 0.0058 | 128x128 Loss: 0.0018 | 256x256 Loss: 0.0019 | 512x512 Loss: 0.0135
+epoch time : 93.68367218971252
+Epoch [94/300]: Total Loss: 0.0058 | 128x128 Loss: 0.0019 | 256x256 Loss: 0.0019 | 512x512 Loss: 0.0135
+epoch time : 93.90493702888489
+Epoch [95/300]: Total Loss: 0.0057 | 128x128 Loss: 0.0018 | 256x256 Loss: 0.0018 | 512x512 Loss: 0.0135
+epoch time : 95.04286623001099
+Epoch [96/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0018 | 512x512 Loss: 0.0134
+epoch time : 93.8198606967926
+Epoch [97/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0017 | 512x512 Loss: 0.0134
+epoch time : 94.05785250663757
+Epoch [98/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0017 | 512x512 Loss: 0.0134
+epoch time : 93.87843942642212
+Epoch [99/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0018 | 512x512 Loss: 0.0134
+epoch time : 92.9602267742157
+Epoch [100/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0018 | 512x512 Loss: 0.0134
+epoch time : 93.25206923484802
+Epoch [101/300]: Total Loss: 0.0057 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0018 | 512x512 Loss: 0.0135
+epoch time : 94.43980860710144
+Epoch [102/300]: Total Loss: 0.0057 | 128x128 Loss: 0.0018 | 256x256 Loss: 0.0018 | 512x512 Loss: 0.0135
+epoch time : 94.01491856575012
+Epoch [103/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0017 | 512x512 Loss: 0.0134
+epoch time : 93.97550749778748
+Epoch [104/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0016 | 256x256 Loss: 0.0017 | 512x512 Loss: 0.0134
+epoch time : 93.75474452972412
+Epoch [105/300]: Total Loss: 0.0055 | 128x128 Loss: 0.0016 | 256x256 Loss: 0.0016 | 512x512 Loss: 0.0133
+epoch time : 93.4730544090271
+Epoch [106/300]: Total Loss: 0.0055 | 128x128 Loss: 0.0016 | 256x256 Loss: 0.0017 | 512x512 Loss: 0.0134
+epoch time : 93.54901051521301
+Epoch [107/300]: Total Loss: 0.0055 | 128x128 Loss: 0.0016 | 256x256 Loss: 0.0016 | 512x512 Loss: 0.0133
+epoch time : 93.58319163322449
+Epoch [108/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0015 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.6514081954956
+Epoch [109/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0014 | 512x512 Loss: 0.0132
+epoch time : 93.24828457832336
+Epoch [110/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0014 | 512x512 Loss: 0.0132
+epoch time : 93.62790632247925
+Epoch [111/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.56056785583496
+Epoch [112/300]: Total Loss: 0.0055 | 128x128 Loss: 0.0015 | 256x256 Loss: 0.0016 | 512x512 Loss: 0.0133
+epoch time : 92.58499050140381
+Epoch [113/300]: Total Loss: 0.0056 | 128x128 Loss: 0.0017 | 256x256 Loss: 0.0017 | 512x512 Loss: 0.0134
+epoch time : 93.29178047180176
+Epoch [114/300]: Total Loss: 0.0055 | 128x128 Loss: 0.0015 | 256x256 Loss: 0.0016 | 512x512 Loss: 0.0133
+epoch time : 93.10383200645447
+Epoch [115/300]: Total Loss: 0.0055 | 128x128 Loss: 0.0015 | 256x256 Loss: 0.0016 | 512x512 Loss: 0.0133
+epoch time : 93.30622673034668
+Epoch [116/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0015 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0133
+epoch time : 94.52868413925171
+Epoch [117/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.64332127571106
+Epoch [118/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.15661311149597
+Epoch [119/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 92.60691022872925
+Epoch [120/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.60625624656677
+Epoch [121/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0014 | 512x512 Loss: 0.0132
+epoch time : 92.82824993133545
+Epoch [122/300]: Total Loss: 0.0054 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.24873089790344
+Epoch [123/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0014 | 256x256 Loss: 0.0015 | 512x512 Loss: 0.0132
+epoch time : 93.45233154296875
+Epoch [124/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0014 | 512x512 Loss: 0.0131
+epoch time : 92.94972705841064
+Epoch [125/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.93369364738464
+Epoch [126/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 93.54701733589172
+Epoch [127/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.33286452293396
+Epoch [128/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.38064479827881
+Epoch [129/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.75198364257812
+Epoch [130/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.28000473976135
+Epoch [131/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.67788004875183
+Epoch [132/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 91.97916507720947
+Epoch [133/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 91.97397017478943
+Epoch [134/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.69670367240906
+Epoch [135/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.20514297485352
+Epoch [136/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 92.16290712356567
+Epoch [137/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0014 | 512x512 Loss: 0.0132
+epoch time : 93.20585870742798
+Epoch [138/300]: Total Loss: 0.0053 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0014 | 512x512 Loss: 0.0131
+epoch time : 91.50940084457397
+Epoch [139/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0013 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 91.73148345947266
+Epoch [140/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0012 | 512x512 Loss: 0.0131
+epoch time : 92.41202974319458
+Epoch [141/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 91.89583468437195
+Epoch [142/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0012 | 512x512 Loss: 0.0131
+epoch time : 92.0552773475647
+Epoch [143/300]: Total Loss: 0.0052 | 128x128 Loss: 0.0012 | 256x256 Loss: 0.0013 | 512x512 Loss: 0.0131
+epoch time : 91.67968344688416
+Epoch [144/300]: Total Loss: 0.0051 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0012 | 512x512 Loss: 0.0130
+epoch time : 92.30158805847168
+Epoch [145/300]: Total Loss: 0.0051 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0012 | 512x512 Loss: 0.0130
+epoch time : 91.69113945960999
+Epoch [146/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.69559454917908
+Epoch [147/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.91429424285889
+Epoch [148/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 92.56744575500488
+Epoch [149/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.9048023223877
+Epoch [150/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.67824101448059
+Epoch [151/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 92.21420407295227
+Epoch [152/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 92.03970217704773
+Epoch [153/300]: Total Loss: 0.0051 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0130
+epoch time : 91.19305181503296
+Epoch [154/300]: Total Loss: 0.0051 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0130
+epoch time : 91.57502508163452
+Epoch [155/300]: Total Loss: 0.0051 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0012 | 512x512 Loss: 0.0130
+epoch time : 91.54524040222168
+Epoch [156/300]: Total Loss: 0.0051 | 128x128 Loss: 0.0011 | 256x256 Loss: 0.0012 | 512x512 Loss: 0.0130
+epoch time : 92.50501561164856
+Epoch [157/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 92.1766996383667
+Epoch [158/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.58851885795593
+Epoch [159/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 92.05147433280945
+Epoch [160/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.50213932991028
+Epoch [161/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.73394560813904
+Epoch [162/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 92.10875153541565
+Epoch [163/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 93.82609057426453
+Epoch [164/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 92.21933817863464
+Epoch [165/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 92.2086193561554
+Epoch [166/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0128
+epoch time : 91.516366481781
+Epoch [167/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.87477540969849
+Epoch [168/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.82041239738464
+Epoch [169/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.48291087150574
+Epoch [170/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.95298719406128
+Epoch [171/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.74452376365662
+Epoch [172/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.29041934013367
+Epoch [173/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0130
+epoch time : 91.81781315803528
+Epoch [174/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 92.0627989768982
+Epoch [175/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.50280976295471
+Epoch [176/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.53645849227905
+Epoch [177/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 91.19238424301147
+Epoch [178/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 91.36362195014954
+Epoch [179/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0128
+epoch time : 91.28038763999939
+Epoch [180/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 91.55059576034546
+Epoch [181/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 91.21035885810852
+Epoch [182/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 91.40835905075073
+Epoch [183/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 90.93140530586243
+Epoch [184/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 90.40792560577393
+Epoch [185/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0129
+epoch time : 90.3775725364685
+Epoch [186/300]: Total Loss: 0.0050 | 128x128 Loss: 0.0010 | 256x256 Loss: 0.0011 | 512x512 Loss: 0.0129
+epoch time : 90.77536010742188
+Epoch [187/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0128
+epoch time : 90.61183047294617
+Epoch [188/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0010 | 512x512 Loss: 0.0128
+epoch time : 90.39763593673706
+Epoch [189/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 90.18763399124146
+Epoch [190/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0127
+epoch time : 90.33339476585388
+Epoch [191/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 91.11078310012817
+Epoch [192/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 90.69016575813293
+Epoch [193/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 90.50555777549744
+Epoch [194/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 90.27147936820984
+Epoch [195/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 89.69365358352661
+Epoch [196/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 90.73701596260071
+Epoch [197/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 89.61414289474487
+Epoch [198/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 90.12006783485413
+Epoch [199/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 89.56790280342102
+Epoch [200/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 89.37532901763916
+Epoch [201/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 89.96033930778503
+Epoch [202/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 88.9103045463562
+Epoch [203/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 88.60798072814941
+Epoch [204/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 88.0477728843689
+Epoch [205/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 87.9450581073761
+Epoch [206/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 89.08916997909546
+Epoch [207/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 88.2686824798584
+Epoch [208/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 88.4591474533081
+Epoch [209/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 87.15449500083923
+Epoch [210/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 87.71403527259827
+Epoch [211/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 88.34362554550171
+Epoch [212/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 87.53571915626526
+Epoch [213/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 88.022864818573
+Epoch [214/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 87.08121538162231
+Epoch [215/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 86.71528363227844
+Epoch [216/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 87.72076106071472
+Epoch [217/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 87.61396598815918
+Epoch [218/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 86.0979118347168
+Epoch [219/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 86.3295795917511
+Epoch [220/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 85.59336447715759
+Epoch [221/300]: Total Loss: 0.0049 | 128x128 Loss: 0.0009 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 85.26110863685608
+Epoch [222/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 86.16849660873413
+Epoch [223/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 84.95375537872314
+Epoch [224/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 85.42129445075989
+Epoch [225/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 86.15783262252808
+Epoch [226/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 85.82342386245728
+Epoch [227/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 85.2461793422699
+Epoch [228/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 84.18635439872742
+Epoch [229/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 84.71580600738525
+Epoch [230/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 84.68771934509277
+Epoch [231/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.49361944198608
+Epoch [232/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.25364923477173
+Epoch [233/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 85.45783495903015
+Epoch [234/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 85.02898240089417
+Epoch [235/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.34729671478271
+Epoch [236/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.07446789741516
+Epoch [237/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.2131998538971
+Epoch [238/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.65331721305847
+Epoch [239/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 84.07264423370361
+Epoch [240/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 104.58093166351318
+Epoch [241/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 87.67599439620972
+Epoch [242/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 85.97608065605164
+Epoch [243/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 83.6587655544281
+Epoch [244/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.31700563430786
+Epoch [245/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.90044832229614
+Epoch [246/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.32358813285828
+Epoch [247/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.45553517341614
+Epoch [248/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.56838178634644
+Epoch [249/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.24186754226685
+Epoch [250/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.53637862205505
+Epoch [251/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.87776160240173
+Epoch [252/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.03424382209778
+Epoch [253/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.40592527389526
+Epoch [254/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.74813032150269
+Epoch [255/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.92683219909668
+Epoch [256/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.27672171592712
+Epoch [257/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.92292022705078
+Epoch [258/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.55865955352783
+Epoch [259/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.7578456401825
+Epoch [260/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.48458003997803
+Epoch [261/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.35960745811462
+Epoch [262/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.46211314201355
+Epoch [263/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 83.15536642074585
+Epoch [264/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.34253144264221
+Epoch [265/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.33282566070557
+Epoch [266/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.948721408844
+Epoch [267/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.78208327293396
+Epoch [268/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.26539635658264
+Epoch [269/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.10548734664917
+Epoch [270/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0126
+epoch time : 84.39724683761597
+Epoch [271/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 83.93704056739807
+Epoch [272/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0128
+epoch time : 83.43182468414307
+Epoch [273/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 84.32445979118347
+Epoch [274/300]: Total Loss: 0.0048 | 128x128 Loss: 0.0008 | 256x256 Loss: 0.0009 | 512x512 Loss: 0.0128
+epoch time : 84.51532888412476
+Epoch [275/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0007 | 256x256 Loss: 0.0008 | 512x512 Loss: 0.0127
+epoch time : 83.97081160545349
+Epoch [276/300]: Total Loss: 0.0047 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0007 | 512x512 Loss: 0.0127
+epoch time : 84.13066792488098
+Epoch [277/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0006 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 84.90087699890137
+Epoch [278/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 82.27989864349365
+Epoch [279/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 82.9327278137207
+Epoch [280/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 84.1021511554718
+Epoch [281/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.30687117576599
+Epoch [282/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.90720200538635
+Epoch [283/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 84.0497739315033
+Epoch [284/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.62464642524719
+Epoch [285/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.2987208366394
+Epoch [286/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 84.68202018737793
+Epoch [287/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 81.64017391204834
+Epoch [288/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.9709906578064
+Epoch [289/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.43870043754578
+Epoch [290/300]: Total Loss: 0.0046 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0126
+epoch time : 83.83589434623718
+Epoch [291/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+epoch time : 84.00789880752563
+Epoch [292/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.99322772026062
+Epoch [293/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.22931003570557
+Epoch [294/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.37051296234131
+Epoch [295/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.93367671966553
+Epoch [296/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 82.89840984344482
+Epoch [297/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 84.29102230072021
+Epoch [298/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0004 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.45241212844849
+Epoch [299/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0005 | 512x512 Loss: 0.0125
+epoch time : 83.85000491142273
+Epoch [300/300]: Total Loss: 0.0045 | 128x128 Loss: 0.0005 | 256x256 Loss: 0.0006 | 512x512 Loss: 0.0125
+training complete

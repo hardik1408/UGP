@@ -9,6 +9,7 @@ import time
 # ---------------------- SETTINGS ----------------------
 batch_size = 32
 num_epochs = int(input("Enter number of epochs: "))
+# num_epochs = 10
 mrl_weights = [1, 1, 1]
 device = torch.device("cpu")
 print(f"Using device: {device}")

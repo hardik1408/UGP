@@ -100,3 +100,21 @@ Epoch [49/50]: Total Loss: 0.0107 | 128x128 Loss: 0.0070 | 256x256 Loss: 0.0072 
 epoch time : 16.471834897994995
 Epoch [50/50]: Total Loss: 0.0114 | 128x128 Loss: 0.0077 | 256x256 Loss: 0.0082 | 512x512 Loss: 0.0183
 training complete
+
+
+
+
+----------------
+
+going into training
+epoch time : 68.67265558242798
+Epoch [1/20]: Total Loss: 0.1330 | 128x128 Loss: 0.0955 | 256x256 Loss: 0.1607 | 512x512 Loss: 0.1428
+epoch time : 68.17024230957031
+Epoch [2/20]: Total Loss: 0.0234 | 128x128 Loss: 0.0199 | 256x256 Loss: 0.0204 | 512x512 Loss: 0.0299
+epoch time : 67.99321937561035
+Epoch [3/20]: Total Loss: 0.0166 | 128x128 Loss: 0.0133 | 256x256 Loss: 0.0133 | 512x512 Loss: 0.0233
+epoch time : 67.99288058280945
+Epoch [4/20]: Total Loss: 0.0132 | 128x128 Loss: 0.0098 | 256x256 Loss: 0.0098 | 512x512 Loss: 0.0201
+epoch time : 67.97431993484497
+Epoch [5/20]: Total Loss: 0.0116 | 128x128 Loss: 0.0081 | 256x256 Loss: 0.0081 | 512x512 Loss: 0.0186
+

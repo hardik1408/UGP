@@ -1,0 +1,603 @@
+nohup: ignoring input
+device = cuda
+time for 1 epoch = 65.69043159484863
+Epoch [1/300], Loss: 0.1326
+time for 2 epoch = 64.5403962135315
+Epoch [2/300], Loss: 0.0307
+time for 3 epoch = 64.49177098274231
+Epoch [3/300], Loss: 0.0239
+time for 4 epoch = 64.65320444107056
+Epoch [4/300], Loss: 0.0212
+time for 5 epoch = 64.66832375526428
+Epoch [5/300], Loss: 0.0199
+time for 6 epoch = 64.92020392417908
+Epoch [6/300], Loss: 0.0191
+time for 7 epoch = 64.83405542373657
+Epoch [7/300], Loss: 0.0186
+time for 8 epoch = 64.41966891288757
+Epoch [8/300], Loss: 0.0178
+time for 9 epoch = 64.55392003059387
+Epoch [9/300], Loss: 0.0175
+time for 10 epoch = 64.33837842941284
+Epoch [10/300], Loss: 0.0169
+time for 11 epoch = 64.8667163848877
+Epoch [11/300], Loss: 0.0168
+time for 12 epoch = 64.60639071464539
+Epoch [12/300], Loss: 0.0166
+time for 13 epoch = 64.90060067176819
+Epoch [13/300], Loss: 0.0170
+time for 14 epoch = 63.957669496536255
+Epoch [14/300], Loss: 0.0169
+time for 15 epoch = 64.24785137176514
+Epoch [15/300], Loss: 0.0167
+time for 16 epoch = 64.40893769264221
+Epoch [16/300], Loss: 0.0164
+time for 17 epoch = 64.10783314704895
+Epoch [17/300], Loss: 0.0165
+time for 18 epoch = 63.769527196884155
+Epoch [18/300], Loss: 0.0165
+time for 19 epoch = 63.912888050079346
+Epoch [19/300], Loss: 0.0164
+time for 20 epoch = 64.31839776039124
+Epoch [20/300], Loss: 0.0162
+time for 21 epoch = 63.689391136169434
+Epoch [21/300], Loss: 0.0161
+time for 22 epoch = 64.27857089042664
+Epoch [22/300], Loss: 0.0161
+time for 23 epoch = 64.51830959320068
+Epoch [23/300], Loss: 0.0160
+time for 24 epoch = 64.21652436256409
+Epoch [24/300], Loss: 0.0157
+time for 25 epoch = 64.33159065246582
+Epoch [25/300], Loss: 0.0156
+time for 26 epoch = 63.98033618927002
+Epoch [26/300], Loss: 0.0154
+time for 27 epoch = 64.60319066047668
+Epoch [27/300], Loss: 0.0154
+time for 28 epoch = 65.27155089378357
+Epoch [28/300], Loss: 0.0154
+time for 29 epoch = 64.01732230186462
+Epoch [29/300], Loss: 0.0155
+time for 30 epoch = 63.557589054107666
+Epoch [30/300], Loss: 0.0155
+time for 31 epoch = 64.11683893203735
+Epoch [31/300], Loss: 0.0156
+time for 32 epoch = 63.6045298576355
+Epoch [32/300], Loss: 0.0154
+time for 33 epoch = 64.50644087791443
+Epoch [33/300], Loss: 0.0154
+time for 34 epoch = 63.95411229133606
+Epoch [34/300], Loss: 0.0153
+time for 35 epoch = 63.79604411125183
+Epoch [35/300], Loss: 0.0152
+time for 36 epoch = 63.98347544670105
+Epoch [36/300], Loss: 0.0151
+time for 37 epoch = 64.34687900543213
+Epoch [37/300], Loss: 0.0150
+time for 38 epoch = 63.92190456390381
+Epoch [38/300], Loss: 0.0150
+time for 39 epoch = 64.50690841674805
+Epoch [39/300], Loss: 0.0151
+time for 40 epoch = 63.72541308403015
+Epoch [40/300], Loss: 0.0152
+time for 41 epoch = 63.77596092224121
+Epoch [41/300], Loss: 0.0149
+time for 42 epoch = 64.6587700843811
+Epoch [42/300], Loss: 0.0149
+time for 43 epoch = 64.59188222885132
+Epoch [43/300], Loss: 0.0148
+time for 44 epoch = 63.82027530670166
+Epoch [44/300], Loss: 0.0149
+time for 45 epoch = 63.81332516670227
+Epoch [45/300], Loss: 0.0148
+time for 46 epoch = 64.98657655715942
+Epoch [46/300], Loss: 0.0146
+time for 47 epoch = 64.85979104042053
+Epoch [47/300], Loss: 0.0148
+time for 48 epoch = 64.03378367424011
+Epoch [48/300], Loss: 0.0147
+time for 49 epoch = 64.39791226387024
+Epoch [49/300], Loss: 0.0148
+time for 50 epoch = 64.3622145652771
+Epoch [50/300], Loss: 0.0148
+time for 51 epoch = 63.29213762283325
+Epoch [51/300], Loss: 0.0148
+time for 52 epoch = 64.45173192024231
+Epoch [52/300], Loss: 0.0147
+time for 53 epoch = 63.74220061302185
+Epoch [53/300], Loss: 0.0149
+time for 54 epoch = 64.92284107208252
+Epoch [54/300], Loss: 0.0147
+time for 55 epoch = 63.78290796279907
+Epoch [55/300], Loss: 0.0148
+time for 56 epoch = 64.38070249557495
+Epoch [56/300], Loss: 0.0146
+time for 57 epoch = 63.903613805770874
+Epoch [57/300], Loss: 0.0145
+time for 58 epoch = 64.53240394592285
+Epoch [58/300], Loss: 0.0144
+time for 59 epoch = 64.15409207344055
+Epoch [59/300], Loss: 0.0145
+time for 60 epoch = 64.44646859169006
+Epoch [60/300], Loss: 0.0145
+time for 61 epoch = 63.97847080230713
+Epoch [61/300], Loss: 0.0146
+time for 62 epoch = 64.43475890159607
+Epoch [62/300], Loss: 0.0146
+time for 63 epoch = 64.47184014320374
+Epoch [63/300], Loss: 0.0147
+time for 64 epoch = 64.72784447669983
+Epoch [64/300], Loss: 0.0147
+time for 65 epoch = 64.01775360107422
+Epoch [65/300], Loss: 0.0147
+time for 66 epoch = 64.4402551651001
+Epoch [66/300], Loss: 0.0145
+time for 67 epoch = 64.70419883728027
+Epoch [67/300], Loss: 0.0147
+time for 68 epoch = 64.33903098106384
+Epoch [68/300], Loss: 0.0147
+time for 69 epoch = 64.62729239463806
+Epoch [69/300], Loss: 0.0148
+time for 70 epoch = 63.64647603034973
+Epoch [70/300], Loss: 0.0147
+time for 71 epoch = 64.3293125629425
+Epoch [71/300], Loss: 0.0147
+time for 72 epoch = 63.97615838050842
+Epoch [72/300], Loss: 0.0146
+time for 73 epoch = 64.8813145160675
+Epoch [73/300], Loss: 0.0147
+time for 74 epoch = 64.44740152359009
+Epoch [74/300], Loss: 0.0147
+time for 75 epoch = 64.4296236038208
+Epoch [75/300], Loss: 0.0147
+time for 76 epoch = 64.07732081413269
+Epoch [76/300], Loss: 0.0147
+time for 77 epoch = 64.13343238830566
+Epoch [77/300], Loss: 0.0146
+time for 78 epoch = 64.83597803115845
+Epoch [78/300], Loss: 0.0146
+time for 79 epoch = 65.79776954650879
+Epoch [79/300], Loss: 0.0147
+time for 80 epoch = 63.712953090667725
+Epoch [80/300], Loss: 0.0145
+time for 81 epoch = 64.15636157989502
+Epoch [81/300], Loss: 0.0146
+time for 82 epoch = 64.0693256855011
+Epoch [82/300], Loss: 0.0144
+time for 83 epoch = 64.32677912712097
+Epoch [83/300], Loss: 0.0145
+time for 84 epoch = 63.77425742149353
+Epoch [84/300], Loss: 0.0145
+time for 85 epoch = 63.323609352111816
+Epoch [85/300], Loss: 0.0145
+time for 86 epoch = 64.77128624916077
+Epoch [86/300], Loss: 0.0145
+time for 87 epoch = 63.85613226890564
+Epoch [87/300], Loss: 0.0145
+time for 88 epoch = 64.97427749633789
+Epoch [88/300], Loss: 0.0143
+time for 89 epoch = 64.17614316940308
+Epoch [89/300], Loss: 0.0141
+time for 90 epoch = 64.10636448860168
+Epoch [90/300], Loss: 0.0142
+time for 91 epoch = 63.98915076255798
+Epoch [91/300], Loss: 0.0141
+time for 92 epoch = 64.32098412513733
+Epoch [92/300], Loss: 0.0142
+time for 93 epoch = 63.5918607711792
+Epoch [93/300], Loss: 0.0142
+time for 94 epoch = 63.872400999069214
+Epoch [94/300], Loss: 0.0141
+time for 95 epoch = 64.47885179519653
+Epoch [95/300], Loss: 0.0141
+time for 96 epoch = 64.27011227607727
+Epoch [96/300], Loss: 0.0141
+time for 97 epoch = 64.25450801849365
+Epoch [97/300], Loss: 0.0140
+time for 98 epoch = 64.2950508594513
+Epoch [98/300], Loss: 0.0139
+time for 99 epoch = 64.30262923240662
+Epoch [99/300], Loss: 0.0138
+time for 100 epoch = 63.90539598464966
+Epoch [100/300], Loss: 0.0137
+time for 101 epoch = 63.52378463745117
+Epoch [101/300], Loss: 0.0137
+time for 102 epoch = 64.00440740585327
+Epoch [102/300], Loss: 0.0137
+time for 103 epoch = 63.82495450973511
+Epoch [103/300], Loss: 0.0138
+time for 104 epoch = 63.500619411468506
+Epoch [104/300], Loss: 0.0138
+time for 105 epoch = 64.21707916259766
+Epoch [105/300], Loss: 0.0138
+time for 106 epoch = 64.7119243144989
+Epoch [106/300], Loss: 0.0138
+time for 107 epoch = 64.7605459690094
+Epoch [107/300], Loss: 0.0139
+time for 108 epoch = 64.53668975830078
+Epoch [108/300], Loss: 0.0139
+time for 109 epoch = 64.36384701728821
+Epoch [109/300], Loss: 0.0138
+time for 110 epoch = 64.37430882453918
+Epoch [110/300], Loss: 0.0138
+time for 111 epoch = 64.46284985542297
+Epoch [111/300], Loss: 0.0139
+time for 112 epoch = 64.52497887611389
+Epoch [112/300], Loss: 0.0137
+time for 113 epoch = 64.31338620185852
+Epoch [113/300], Loss: 0.0137
+time for 114 epoch = 64.68675017356873
+Epoch [114/300], Loss: 0.0136
+time for 115 epoch = 64.2557578086853
+Epoch [115/300], Loss: 0.0135
+time for 116 epoch = 64.47742247581482
+Epoch [116/300], Loss: 0.0136
+time for 117 epoch = 64.42765164375305
+Epoch [117/300], Loss: 0.0136
+time for 118 epoch = 63.95846629142761
+Epoch [118/300], Loss: 0.0137
+time for 119 epoch = 64.28449845314026
+Epoch [119/300], Loss: 0.0138
+time for 120 epoch = 63.85175275802612
+Epoch [120/300], Loss: 0.0136
+time for 121 epoch = 64.36531472206116
+Epoch [121/300], Loss: 0.0136
+time for 122 epoch = 63.41495752334595
+Epoch [122/300], Loss: 0.0135
+time for 123 epoch = 63.66247272491455
+Epoch [123/300], Loss: 0.0136
+time for 124 epoch = 63.59547281265259
+Epoch [124/300], Loss: 0.0136
+time for 125 epoch = 63.75212097167969
+Epoch [125/300], Loss: 0.0136
+time for 126 epoch = 64.42236566543579
+Epoch [126/300], Loss: 0.0136
+time for 127 epoch = 64.98210215568542
+Epoch [127/300], Loss: 0.0136
+time for 128 epoch = 64.57105207443237
+Epoch [128/300], Loss: 0.0135
+time for 129 epoch = 63.71937584877014
+Epoch [129/300], Loss: 0.0136
+time for 130 epoch = 94.04206347465515
+Epoch [130/300], Loss: 0.0135
+time for 131 epoch = 93.76962733268738
+Epoch [131/300], Loss: 0.0135
+time for 132 epoch = 63.935542583465576
+Epoch [132/300], Loss: 0.0136
+time for 133 epoch = 64.64701676368713
+Epoch [133/300], Loss: 0.0136
+time for 134 epoch = 63.53746485710144
+Epoch [134/300], Loss: 0.0137
+time for 135 epoch = 64.02874970436096
+Epoch [135/300], Loss: 0.0137
+time for 136 epoch = 64.02657699584961
+Epoch [136/300], Loss: 0.0136
+time for 137 epoch = 64.02009797096252
+Epoch [137/300], Loss: 0.0134
+time for 138 epoch = 63.783769845962524
+Epoch [138/300], Loss: 0.0133
+time for 139 epoch = 64.26281523704529
+Epoch [139/300], Loss: 0.0134
+time for 140 epoch = 64.24504685401917
+Epoch [140/300], Loss: 0.0134
+time for 141 epoch = 63.91229605674744
+Epoch [141/300], Loss: 0.0134
+time for 142 epoch = 63.94574761390686
+Epoch [142/300], Loss: 0.0134
+time for 143 epoch = 64.92165470123291
+Epoch [143/300], Loss: 0.0134
+time for 144 epoch = 64.17372274398804
+Epoch [144/300], Loss: 0.0133
+time for 145 epoch = 63.69751596450806
+Epoch [145/300], Loss: 0.0133
+time for 146 epoch = 63.890525102615356
+Epoch [146/300], Loss: 0.0134
+time for 147 epoch = 64.14030957221985
+Epoch [147/300], Loss: 0.0133
+time for 148 epoch = 63.624584674835205
+Epoch [148/300], Loss: 0.0134
+time for 149 epoch = 64.24807643890381
+Epoch [149/300], Loss: 0.0133
+time for 150 epoch = 64.38285565376282
+Epoch [150/300], Loss: 0.0133
+time for 151 epoch = 63.89095497131348
+Epoch [151/300], Loss: 0.0133
+time for 152 epoch = 64.44383239746094
+Epoch [152/300], Loss: 0.0132
+time for 153 epoch = 64.29104995727539
+Epoch [153/300], Loss: 0.0132
+time for 154 epoch = 64.28450202941895
+Epoch [154/300], Loss: 0.0132
+time for 155 epoch = 64.14638638496399
+Epoch [155/300], Loss: 0.0132
+time for 156 epoch = 63.92620611190796
+Epoch [156/300], Loss: 0.0132
+time for 157 epoch = 64.18329858779907
+Epoch [157/300], Loss: 0.0132
+time for 158 epoch = 64.06528043746948
+Epoch [158/300], Loss: 0.0132
+time for 159 epoch = 63.949519634246826
+Epoch [159/300], Loss: 0.0131
+time for 160 epoch = 64.3082947731018
+Epoch [160/300], Loss: 0.0131
+time for 161 epoch = 64.12567949295044
+Epoch [161/300], Loss: 0.0130
+time for 162 epoch = 63.8684458732605
+Epoch [162/300], Loss: 0.0131
+time for 163 epoch = 63.79164934158325
+Epoch [163/300], Loss: 0.0132
+time for 164 epoch = 63.56468224525452
+Epoch [164/300], Loss: 0.0132
+time for 165 epoch = 63.99178767204285
+Epoch [165/300], Loss: 0.0132
+time for 166 epoch = 63.68699860572815
+Epoch [166/300], Loss: 0.0132
+time for 167 epoch = 64.45231080055237
+Epoch [167/300], Loss: 0.0132
+time for 168 epoch = 64.20361256599426
+Epoch [168/300], Loss: 0.0132
+time for 169 epoch = 64.07376074790955
+Epoch [169/300], Loss: 0.0132
+time for 170 epoch = 64.43422818183899
+Epoch [170/300], Loss: 0.0132
+time for 171 epoch = 64.40758156776428
+Epoch [171/300], Loss: 0.0132
+time for 172 epoch = 64.48281288146973
+Epoch [172/300], Loss: 0.0132
+time for 173 epoch = 64.41043448448181
+Epoch [173/300], Loss: 0.0132
+time for 174 epoch = 64.35529065132141
+Epoch [174/300], Loss: 0.0133
+time for 175 epoch = 64.0652163028717
+Epoch [175/300], Loss: 0.0131
+time for 176 epoch = 64.59470677375793
+Epoch [176/300], Loss: 0.0131
+time for 177 epoch = 64.29036498069763
+Epoch [177/300], Loss: 0.0130
+time for 178 epoch = 64.41473650932312
+Epoch [178/300], Loss: 0.0130
+time for 179 epoch = 63.57690167427063
+Epoch [179/300], Loss: 0.0130
+time for 180 epoch = 64.42179608345032
+Epoch [180/300], Loss: 0.0130
+time for 181 epoch = 63.970099449157715
+Epoch [181/300], Loss: 0.0131
+time for 182 epoch = 63.60906672477722
+Epoch [182/300], Loss: 0.0131
+time for 183 epoch = 63.39748787879944
+Epoch [183/300], Loss: 0.0131
+time for 184 epoch = 63.916011333465576
+Epoch [184/300], Loss: 0.0131
+time for 185 epoch = 63.291359186172485
+Epoch [185/300], Loss: 0.0131
+time for 186 epoch = 64.74078559875488
+Epoch [186/300], Loss: 0.0130
+time for 187 epoch = 64.42287611961365
+Epoch [187/300], Loss: 0.0131
+time for 188 epoch = 63.72624921798706
+Epoch [188/300], Loss: 0.0130
+time for 189 epoch = 63.794052600860596
+Epoch [189/300], Loss: 0.0130
+time for 190 epoch = 64.14611434936523
+Epoch [190/300], Loss: 0.0130
+time for 191 epoch = 64.12476944923401
+Epoch [191/300], Loss: 0.0130
+time for 192 epoch = 64.2114269733429
+Epoch [192/300], Loss: 0.0130
+time for 193 epoch = 65.01952338218689
+Epoch [193/300], Loss: 0.0130
+time for 194 epoch = 65.4125611782074
+Epoch [194/300], Loss: 0.0129
+time for 195 epoch = 63.809680461883545
+Epoch [195/300], Loss: 0.0129
+time for 196 epoch = 64.32776618003845
+Epoch [196/300], Loss: 0.0129
+time for 197 epoch = 63.84841704368591
+Epoch [197/300], Loss: 0.0130
+time for 198 epoch = 63.50267457962036
+Epoch [198/300], Loss: 0.0130
+time for 199 epoch = 63.75052881240845
+Epoch [199/300], Loss: 0.0131
+time for 200 epoch = 64.69577479362488
+Epoch [200/300], Loss: 0.0130
+time for 201 epoch = 63.75128650665283
+Epoch [201/300], Loss: 0.0130
+time for 202 epoch = 64.3587281703949
+Epoch [202/300], Loss: 0.0130
+time for 203 epoch = 64.0118420124054
+Epoch [203/300], Loss: 0.0130
+time for 204 epoch = 64.5251293182373
+Epoch [204/300], Loss: 0.0130
+time for 205 epoch = 64.85663795471191
+Epoch [205/300], Loss: 0.0130
+time for 206 epoch = 64.44695091247559
+Epoch [206/300], Loss: 0.0130
+time for 207 epoch = 63.918965339660645
+Epoch [207/300], Loss: 0.0130
+time for 208 epoch = 63.700286865234375
+Epoch [208/300], Loss: 0.0131
+time for 209 epoch = 64.38273453712463
+Epoch [209/300], Loss: 0.0130
+time for 210 epoch = 64.13974285125732
+Epoch [210/300], Loss: 0.0130
+time for 211 epoch = 64.32989811897278
+Epoch [211/300], Loss: 0.0129
+time for 212 epoch = 63.85127305984497
+Epoch [212/300], Loss: 0.0130
+time for 213 epoch = 64.06649446487427
+Epoch [213/300], Loss: 0.0130
+time for 214 epoch = 64.42903923988342
+Epoch [214/300], Loss: 0.0130
+time for 215 epoch = 64.09446144104004
+Epoch [215/300], Loss: 0.0131
+time for 216 epoch = 64.07742500305176
+Epoch [216/300], Loss: 0.0130
+time for 217 epoch = 72.34592509269714
+Epoch [217/300], Loss: 0.0130
+time for 218 epoch = 83.37699842453003
+Epoch [218/300], Loss: 0.0130
+time for 219 epoch = 64.2178361415863
+Epoch [219/300], Loss: 0.0130
+time for 220 epoch = 63.92145228385925
+Epoch [220/300], Loss: 0.0130
+time for 221 epoch = 64.67083549499512
+Epoch [221/300], Loss: 0.0130
+time for 222 epoch = 64.17628884315491
+Epoch [222/300], Loss: 0.0129
+time for 223 epoch = 64.43167114257812
+Epoch [223/300], Loss: 0.0128
+time for 224 epoch = 63.417259216308594
+Epoch [224/300], Loss: 0.0128
+time for 225 epoch = 64.02570796012878
+Epoch [225/300], Loss: 0.0128
+time for 226 epoch = 63.88580584526062
+Epoch [226/300], Loss: 0.0128
+time for 227 epoch = 63.545122146606445
+Epoch [227/300], Loss: 0.0129
+time for 228 epoch = 63.38784718513489
+Epoch [228/300], Loss: 0.0129
+time for 229 epoch = 64.03730845451355
+Epoch [229/300], Loss: 0.0128
+time for 230 epoch = 63.9979567527771
+Epoch [230/300], Loss: 0.0127
+time for 231 epoch = 64.95036625862122
+Epoch [231/300], Loss: 0.0128
+time for 232 epoch = 64.84233522415161
+Epoch [232/300], Loss: 0.0128
+time for 233 epoch = 64.43078446388245
+Epoch [233/300], Loss: 0.0128
+time for 234 epoch = 64.55758929252625
+Epoch [234/300], Loss: 0.0128
+time for 235 epoch = 64.52409601211548
+Epoch [235/300], Loss: 0.0128
+time for 236 epoch = 64.31730079650879
+Epoch [236/300], Loss: 0.0128
+time for 237 epoch = 64.26190972328186
+Epoch [237/300], Loss: 0.0128
+time for 238 epoch = 64.21734142303467
+Epoch [238/300], Loss: 0.0127
+time for 239 epoch = 64.20787692070007
+Epoch [239/300], Loss: 0.0128
+time for 240 epoch = 64.8815541267395
+Epoch [240/300], Loss: 0.0128
+time for 241 epoch = 64.49963879585266
+Epoch [241/300], Loss: 0.0129
+time for 242 epoch = 63.73063015937805
+Epoch [242/300], Loss: 0.0129
+time for 243 epoch = 63.99969434738159
+Epoch [243/300], Loss: 0.0130
+time for 244 epoch = 64.20505857467651
+Epoch [244/300], Loss: 0.0130
+time for 245 epoch = 64.43800091743469
+Epoch [245/300], Loss: 0.0130
+time for 246 epoch = 64.39800262451172
+Epoch [246/300], Loss: 0.0130
+time for 247 epoch = 64.15928316116333
+Epoch [247/300], Loss: 0.0129
+time for 248 epoch = 63.962557315826416
+Epoch [248/300], Loss: 0.0129
+time for 249 epoch = 64.05081701278687
+Epoch [249/300], Loss: 0.0128
+time for 250 epoch = 64.22438788414001
+Epoch [250/300], Loss: 0.0127
+time for 251 epoch = 63.87814140319824
+Epoch [251/300], Loss: 0.0127
+time for 252 epoch = 64.05942964553833
+Epoch [252/300], Loss: 0.0126
+time for 253 epoch = 64.12663245201111
+Epoch [253/300], Loss: 0.0126
+time for 254 epoch = 63.8241503238678
+Epoch [254/300], Loss: 0.0126
+time for 255 epoch = 64.34374642372131
+Epoch [255/300], Loss: 0.0127
+time for 256 epoch = 64.9514536857605
+Epoch [256/300], Loss: 0.0127
+time for 257 epoch = 63.94906663894653
+Epoch [257/300], Loss: 0.0127
+time for 258 epoch = 64.06047224998474
+Epoch [258/300], Loss: 0.0128
+time for 259 epoch = 64.12302160263062
+Epoch [259/300], Loss: 0.0128
+time for 260 epoch = 64.32485127449036
+Epoch [260/300], Loss: 0.0128
+time for 261 epoch = 64.42217898368835
+Epoch [261/300], Loss: 0.0128
+time for 262 epoch = 63.886045694351196
+Epoch [262/300], Loss: 0.0128
+time for 263 epoch = 63.79254746437073
+Epoch [263/300], Loss: 0.0127
+time for 264 epoch = 64.63806200027466
+Epoch [264/300], Loss: 0.0127
+time for 265 epoch = 64.44048118591309
+Epoch [265/300], Loss: 0.0127
+time for 266 epoch = 64.26592922210693
+Epoch [266/300], Loss: 0.0127
+time for 267 epoch = 63.49426507949829
+Epoch [267/300], Loss: 0.0127
+time for 268 epoch = 63.97791075706482
+Epoch [268/300], Loss: 0.0127
+time for 269 epoch = 64.16700387001038
+Epoch [269/300], Loss: 0.0127
+time for 270 epoch = 63.74755144119263
+Epoch [270/300], Loss: 0.0127
+time for 271 epoch = 64.20486760139465
+Epoch [271/300], Loss: 0.0127
+time for 272 epoch = 64.26151895523071
+Epoch [272/300], Loss: 0.0127
+time for 273 epoch = 63.63377046585083
+Epoch [273/300], Loss: 0.0127
+time for 274 epoch = 63.281922340393066
+Epoch [274/300], Loss: 0.0128
+time for 275 epoch = 64.24111986160278
+Epoch [275/300], Loss: 0.0128
+time for 276 epoch = 63.75551390647888
+Epoch [276/300], Loss: 0.0128
+time for 277 epoch = 64.04055309295654
+Epoch [277/300], Loss: 0.0128
+time for 278 epoch = 64.44292879104614
+Epoch [278/300], Loss: 0.0128
+time for 279 epoch = 64.27882838249207
+Epoch [279/300], Loss: 0.0128
+time for 280 epoch = 64.19279098510742
+Epoch [280/300], Loss: 0.0127
+time for 281 epoch = 64.03404331207275
+Epoch [281/300], Loss: 0.0127
+time for 282 epoch = 63.576457023620605
+Epoch [282/300], Loss: 0.0127
+time for 283 epoch = 64.62635397911072
+Epoch [283/300], Loss: 0.0127
+time for 284 epoch = 63.32849335670471
+Epoch [284/300], Loss: 0.0127
+time for 285 epoch = 64.53555703163147
+Epoch [285/300], Loss: 0.0127
+time for 286 epoch = 64.29078888893127
+Epoch [286/300], Loss: 0.0127
+time for 287 epoch = 63.880743980407715
+Epoch [287/300], Loss: 0.0127
+time for 288 epoch = 63.395742893218994
+Epoch [288/300], Loss: 0.0127
+time for 289 epoch = 63.517730474472046
+Epoch [289/300], Loss: 0.0128
+time for 290 epoch = 63.77915120124817
+Epoch [290/300], Loss: 0.0128
+time for 291 epoch = 63.984063148498535
+Epoch [291/300], Loss: 0.0129
+time for 292 epoch = 64.08618140220642
+Epoch [292/300], Loss: 0.0128
+time for 293 epoch = 64.43080019950867
+Epoch [293/300], Loss: 0.0128
+time for 294 epoch = 64.39129114151001
+Epoch [294/300], Loss: 0.0127
+time for 295 epoch = 64.63844299316406
+Epoch [295/300], Loss: 0.0126
+time for 296 epoch = 64.1986973285675
+Epoch [296/300], Loss: 0.0126
+time for 297 epoch = 64.16052150726318
+Epoch [297/300], Loss: 0.0126
+time for 298 epoch = 64.11049890518188
+Epoch [298/300], Loss: 0.0126
+time for 299 epoch = 64.4436206817627
+Epoch [299/300], Loss: 0.0126
+time for 300 epoch = 63.974016427993774
+Epoch [300/300], Loss: 0.0126
+training complete

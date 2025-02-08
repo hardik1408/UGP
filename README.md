@@ -5,3 +5,7 @@ This repository contains all the source code and experiments for the Undergradua
 - arch
 - survey
 - psnr as mse
+
+```python
+script -q -c "python3 train.py" output.log
+```

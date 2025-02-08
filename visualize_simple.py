@@ -3,53 +3,55 @@ import matplotlib.pyplot as plt
 import torch
 from autoencoder import AutoEncoderMRL
 from torchvision import transforms
-from imagedataset import ImageDataset
-from torch.utils.data import DataLoader
+from PIL import Image
+import numpy as np
+
+def load_and_preprocess(image_path, transform, device):
+    image = Image.open(image_path).convert("RGB")
+    image = transform(image).unsqueeze(0).to(device)  # Add batch dimension
+    return image
 
 def main(weights_path):
-    device = torch.device('cpu')
+    device = torch.device("cpu")
     autoencoder_mrl = AutoEncoderMRL().to(device)
-    autoencoder_mrl = torch.load(weights_path)
+    autoencoder_mrl = torch.load(weights_path, map_location=device)
     autoencoder_mrl.eval()
 
     transform = transforms.Compose([
-        transforms.ToTensor(),          # Convert image to PyTorch tensor
-        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalize to [-1, 1]
+        transforms.ToTensor(),
+        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
     ])
 
+    image_paths = [
+        "data/train/512/-1.0000_30.0000.png",
+        "data/train/512/-1.0000_153.0000.png",
+        "data/train/512/-2.0000_306.0000.png",
+        "data/train/512/-4.0000_215.0000.png",
+        "data/train/512/-16.0000_82.0000.png",
+    ]
+    img_path = input("Enter the name of the image file: ")
+    images = [load_and_preprocess(img_path, transform, device) for img_path in image_paths]
+    images_tensor = torch.cat(images, dim=0)  # Stack into a batch
 
-    folder_path_512 = 'data/train/512'
-
-    dataset_512 = ImageDataset(folder_path_512, transform=transform)
-
-    batch_size = 32
-    dataloader_512 = DataLoader(dataset_512, batch_size=batch_size, shuffle=False)
-
-    img_512 = next(iter(dataloader_512)).to(device)
     with torch.no_grad():
-        _, _, out_512, _ = autoencoder_mrl(img_512)
+        _, _, out_images, _ = autoencoder_mrl(images_tensor)
 
-    img_512 = img_512.cpu().numpy()
-    out_512 = out_512.cpu().numpy()
+    images_np = images_tensor.cpu().numpy()
+    out_images_np = out_images.cpu().numpy()
 
-    num_images = min(5, len(img_512))  
+    fig, axes = plt.subplots(2, 5, figsize=(15, 6)) 
 
-    fig, axes = plt.subplots(num_images, 2, figsize=(10, num_images * 3))
+    for i in range(5):  
+        axes[0, i].imshow(np.clip(images_np[i].transpose(1, 2, 0) * 0.5 + 0.5, 0, 1))  # Denormalize
+        axes[0, i].set_title(f"Original {i+1}")
+        axes[0, i].axis("off")
 
-    for i in range(num_images):
-        # Original 512x512
-        axes[i, 0].imshow(img_512[i].transpose(1, 2, 0))  
-        axes[i, 0].set_title("Original 512x512")
-        axes[i, 0].axis("off")
-        
-        # Reconstructed 512x512
-        axes[i, 1].imshow(out_512[i].transpose(1, 2, 0))
-        axes[i, 1].set_title("Reconstructed 512x512")
-        axes[i, 1].axis("off")
-        
+        axes[1, i].imshow(np.clip(out_images_np[i].transpose(1, 2, 0) * 0.5 + 0.5, 0, 1))  # Denormalize
+        axes[1, i].set_title(f"Reconstructed {i+1}")
+        axes[1, i].axis("off")
 
     plt.tight_layout()
-    plt.show()
+    plt.savefig(img_path)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Visualize MRL Autoencoder Reconstructions")
